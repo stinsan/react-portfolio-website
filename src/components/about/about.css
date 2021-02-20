@@ -1,0 +1,22 @@
+.about-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-main-section img {
+  width:25%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 9% 0 12%;
+}
+
+.about-text-wrapper {
+  font-size: 18px;
+  width: 50%;
+}
+
+.about-text {
+  padding-bottom: 20px;
+}

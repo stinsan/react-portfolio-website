@@ -1,0 +1,9 @@
+.section-title {
+  font-family: Consolas, monaco, monospace;
+  font-size: 26px;
+  padding-bottom: 25px;
+}
+
+.section-title span:first-of-type {
+  font-weight: bold;
+}

@@ -1,0 +1,58 @@
+.education {
+  font-size: 18px;
+}
+
+.education-main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-top: 2.5%;
+}
+
+.edu-wrapper {
+    padding-right: 15%;
+}
+.edu-panel {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.edu-panel:last-of-type {
+  padding-bottom:  0px;
+}
+
+.edu-panel img {
+  width: 60px;
+  height: auto;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.edu-text div:first-of-type {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+
+.coursework-wrapper div:first-child {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.coursework-list {
+  columns: 2 auto;
+}
+
+.coursework-list li {
+  margin-right: 20px;
+}
