@@ -8,21 +8,21 @@ const mastersProps = {
   university: 'The University of Oklahoma',
   degree: 'M.Sc. Computer Science',
   misc: ['August 2020 - May 2021 (expected)', '4.00/4.00 GPA'],
-  imgPath: '/assets/ou-logo.svg'
+  imgPath: '../../assets/ou-logo.svg'
 }
 
 const bachelorsProps = {
   university: 'The University of Oklahoma',
   degree: 'B.Sc. Computer Science, summa cum laude',
   misc: ['August 2017 - May 2020', 'Minor in Mathematics', '3.91/4.00 GPA'],
-  imgPath: '/assets/ou-logo.svg'
+  imgPath: '../../assets/ou-logo.svg'
 }
 
 const oxfordProps = {
   university: 'The University of Oxford, Brasenose College',
   degree: 'Study Abroad',
   misc: ['Summer 2018'],
-  imgPath: '/assets/oxford-logo.png'
+  imgPath: '../../assets/oxford-logo.png'
 }
 
 const coursework = ["artificial intelligence",
