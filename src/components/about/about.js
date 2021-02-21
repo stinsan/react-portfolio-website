@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from '../section_title/section_title';
+import MeImg from '../../assets/me.jpg'
 import './about.css';
 
 const aboutBlurbs = ['Hello there!',
@@ -16,7 +17,7 @@ class About extends React.Component {
           <div className="about-text-wrapper">
           { aboutBlurbs.map((value, index) => (<div key={index} className="about-text">{value}</div>)) }
           </div>
-          <img alt="me" src="/assets/me.jpg"></img>
+          <img alt="me" src={MeImg}></img>
         </div>
       </div>
     )
