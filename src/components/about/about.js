@@ -16,7 +16,7 @@ class About extends React.Component {
           <div className="about-text-wrapper">
           { aboutBlurbs.map((value, index) => (<div key={index} className="about-text">{value}</div>)) }
           </div>
-          <img alt="me" src="./assets/me.jpg"></img>
+          <img alt="me" src="/assets/me.jpg"></img>
         </div>
       </div>
     )
