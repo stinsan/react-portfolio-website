@@ -3,6 +3,8 @@ import { Link } from 'react-scroll';
 import Button from 'react-bootstrap/Button';
 import './navbar.css'
 
+import Resume from '../../assets/documents/JustinSantosResume.pdf';
+
 class MyButton {
   constructor(name, href) {
     this.name = name
@@ -27,7 +29,7 @@ class Navbar extends React.Component {
       <>
         <div className="navbar-container">
           {this.getNavbarButtons()}
-          <Button href="/assets/JustinSantosResume.pdf" className="navbar-btn">résumé</Button>
+          <Button href={Resume} className="navbar-btn">résumé</Button>
         </div>
       </>
     );

@@ -2,33 +2,36 @@ import React from 'react';
 import SectionTitle from '../section_title/section_title';
 import EducationPanel from './education_panel/education_panel';
 import CourseworkPanel from './coursework_panel/coursework_panel';
+import OuImg from '../../assets/images/ou-logo.svg';
+import OxfordImg from '../../assets/images/oxford-logo.png';
 import './education.css';
 
 const mastersProps = {
   university: 'The University of Oklahoma',
   degree: 'M.Sc. Computer Science',
   misc: ['August 2020 - May 2021 (expected)', '4.00/4.00 GPA'],
-  imgPath: '../../assets/ou-logo.svg'
+  img: OuImg
 }
 
 const bachelorsProps = {
   university: 'The University of Oklahoma',
   degree: 'B.Sc. Computer Science, summa cum laude',
   misc: ['August 2017 - May 2020', 'Minor in Mathematics', '3.91/4.00 GPA'],
-  imgPath: '../../assets/ou-logo.svg'
+  img: OuImg
 }
 
 const oxfordProps = {
   university: 'The University of Oxford, Brasenose College',
   degree: 'Study Abroad',
   misc: ['Summer 2018'],
-  imgPath: '../../assets/oxford-logo.png'
+  img: OxfordImg
 }
 
 const coursework = ["artificial intelligence",
   "machine learning",
   "deep learning",
   "neural networks",
+  "evolutionary computation",
   "parallel and distributed programming",
   "applied statistics",
   "robotics",

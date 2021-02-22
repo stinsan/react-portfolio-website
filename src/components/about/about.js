@@ -1,12 +1,12 @@
 import React from 'react';
 import SectionTitle from '../section_title/section_title';
-import MeImg from '../../assets/me.jpg'
+import MeImg from '../../assets/images/me.jpg'
 import './about.css';
 
 const aboutBlurbs = ['Hello there!',
-'I\'m Justin Santos — a graduate student, software engineer, and lover of technology. There are more tools at our disposal than any other time in human history; my goal is to utilize today\'s tools to solve tomorrow\'s problems.',
+'I\'m Justin Santos — a graduate student, software engineer, and overall lover of technology. There are more tools at our disposal right now than any other time in human history; my goal is to utilize today\'s tools to solve tomorrow\'s problems.',
 'My academic and professional interests include data and algorithm visualization, artificial intelligence, and machine learning.',
-'Outside of the realm of computer science, I enjoy drinking boba, occasionally working out, and playing video games (osu! is my favorite at the moment). ']
+'Outside of the realm of computer science, I enjoy drinking boba, occasionally working out, and playing video games (Valorant is my favorite at the moment). ']
 
 class About extends React.Component {
   render() {

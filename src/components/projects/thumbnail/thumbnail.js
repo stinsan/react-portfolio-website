@@ -13,7 +13,7 @@ export default function Thumbnail(props) {
   return(
     <>
     <div onClick={ toggleModal } className={ props.className }>
-      <img className="thumbnail-img" alt="alt" src={ props.gifPath }></img>
+      <img className="thumbnail-img" alt="alt" src={ props.gif }></img>
       <p> {props.name} </p>
     </div>
     <Modal

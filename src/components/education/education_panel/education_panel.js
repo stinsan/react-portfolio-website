@@ -8,7 +8,7 @@ class EducationPanel extends React.Component {
   render() {
     return (
       <div className = { this.props.className }>
-        <img alt="uni-img" src={ this.props.imgPath }></img>
+        <img alt="uni-img" src={ this.props.img }></img>
         <div className="edu-text">
           <div>{ this.props.university } | { this.props.degree }</div>
           <div>
