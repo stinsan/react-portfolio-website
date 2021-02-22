@@ -16,8 +16,7 @@ class Navbar extends React.Component {
     const buttons = [new MyButton('home'),
       new MyButton('about'),
       new MyButton('projects'),
-      new MyButton('education'),
-      new MyButton('contact')]
+      new MyButton('education')]
 
     return buttons.map((btn) => {
       return <Link key={btn.name} to={btn.name} smooth={true} duration={1000}><Button className="navbar-btn">{btn.name}</Button></Link>
